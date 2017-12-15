@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhsinvent.sport.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="127dp"
+        android:layout_height="64dp"
+        android:text="SpORT"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:text="Special Olympics Robotic Thrower"
+        android:textScaleX="1"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="70dp"
+        android:text="Administrator"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/black"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="130dp"
+        app:srcCompat="@mipmap/basketball"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="174dp"
+        android:layout_height="161dp"
+        app:srcCompat="@mipmap/soccerball"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="225dp"
+        android:layout_height="66dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Play"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/home_button"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="487dp" />
+</android.support.constraint.ConstraintLayout>
