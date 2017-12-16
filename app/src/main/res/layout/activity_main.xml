@@ -14,8 +14,8 @@
         android:textColor="@android:color/black"
         android:textColorHighlight="@android:color/black"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="201dp" />
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="187dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -25,7 +25,7 @@
         android:textScaleX="1"
         android:textSize="23sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="325dp" />
 
     <TextView
@@ -36,24 +36,24 @@
         android:textColor="@android:color/black"
         android:textColorHighlight="@android:color/black"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="35dp" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="33dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="153dp"
         android:layout_height="130dp"
         app:srcCompat="@mipmap/basketball"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="135dp" />
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="113dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="174dp"
         android:layout_height="161dp"
         app:srcCompat="@mipmap/soccerball"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="164dp" />
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="175dp" />
 
     <Button
         android:id="@+id/playbutton"
@@ -62,7 +62,7 @@
         android:background="@android:color/holo_blue_light"
         android:text="Play"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="391dp" />
 
     <ImageView
@@ -70,6 +70,6 @@
         android:layout_width="75dp"
         android:layout_height="69dp"
         app:srcCompat="@mipmap/home_button"
-        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="487dp" />
 </android.support.constraint.ConstraintLayout>
