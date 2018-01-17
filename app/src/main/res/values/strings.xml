@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SpORT</string>
+    <string name="title_activity_sport_selection">SportSelection</string>
 </resources>
